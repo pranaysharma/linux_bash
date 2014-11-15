@@ -40,3 +40,6 @@ alias md='mkdir'
 alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
+
+# Cool stuff
+alias jsonget="curl -X GET -H 'Accept: application/json'"
