@@ -43,3 +43,10 @@ alias treeacl='tree -A -C -L 2'
 
 # Cool stuff
 alias jsonget="curl -X GET -H 'Accept: application/json'"
+
+#django related
+alias pmmi='python manage.py makemigrations'
+alias pmm='python manage.py migrate'
+
+
+
