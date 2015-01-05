@@ -45,8 +45,13 @@ alias treeacl='tree -A -C -L 2'
 alias jsonget="curl -X GET -H 'Accept: application/json'"
 
 #django related
+#syncdb
+alias pms='python manage.py syncdb'
 alias pmmi='python manage.py makemigrations'
 alias pmm='python manage.py migrate'
-
+#create superuser
+alias pmc='python manage.py createsuperuser'
+#clear database
+alias pmf='python manage.py flush'
 
 
