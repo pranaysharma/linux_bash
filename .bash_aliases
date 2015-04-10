@@ -1,11 +1,12 @@
 #git related 
 alias  gitl='git log --graph --decorate --pretty=oneline --abbrev-commit'
 alias  gits='git status'
-
+    #set the default editor for GIT to nano. Refrence: http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
+    #Todo: This should be in .bashrc
+    git config --global core.editor "nano"
+    export GIT_EDITOR=nano
 
 #bash related
-
-
 # enable color support of ls and also add handy aliases                                                               
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
